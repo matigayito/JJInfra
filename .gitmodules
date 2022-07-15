@@ -1,0 +1,9 @@
+[submodule "JJAuth"]
+	path = JJAuth
+	url = https://github.com/matigayito/JJAuth.git
+[submodule "JJUsers"]
+	path = JJUsers
+	url = https://github.com/matigayito/JJUsers.git
+[submodule "JJPosts"]
+	path = JJPosts
+	url = https://github.com/matigayito/JJPosts.git
