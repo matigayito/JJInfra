@@ -3,6 +3,8 @@ version: '3'
 services:
   users-api:
     container_name: "users-api"
+    depends_on:
+      - users-db
     build:
       context: .
       dockerfile: Dockerfile
@@ -27,6 +29,8 @@ services:
 
   post-api:
     container_name: "post-api"
+    depends_on:
+      - post-db
     build:
       context: .
       dockerfile: Dockerfile
